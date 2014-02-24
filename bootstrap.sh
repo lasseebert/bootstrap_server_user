@@ -40,7 +40,7 @@ function install_dotfiles {
     sudo apt-get install -y git &&
     git clone https://github.com/lasseebert/dotfiles.git &&
     cd dotfiles &&
-    ./install --simple
+    ./install
   "
 }
 
