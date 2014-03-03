@@ -1,6 +1,5 @@
 #!/bin/bash
 
-dir=`dirname $0`
 host=$1
 login="root@$host"
 user="${2:-`whoami`}"
